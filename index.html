@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bg-amber-400">
+    <!--Header section starts here -->
+    <header
+      class="flex justify-between items-center p-10 border border-black sm:max-w-[100%]"
+    >
+      <div class="flex gap-5 items-center ml-[6rem] md:ml-5">
+        <p><i class="fa-solid fa-burger text-4xl"></i></p>
+        <h2 class="flex gap-2 font-light text-5xl">
+          Ugo
+          <p class="font-extrabold text-red-600">Eats</p>
+        </h2>
+      </div>
+      <div class="md:flex gap-8 hidden">
+        <button
+          class="bg-white p-5 rounded-[50%] flex gap-2 items-center font-light shadow-xl shadow-green-900"
+        >
+          <i class="fa-solid fa-user"></i>Log in
+        </button>
+        <button
+          class="bg-white p-5 rounded-[50%] font-light shadow-xl shadow-green-900"
+        >
+          Sign up
+        </button>
+      </div>
+    </header>
+    <!--End of Header section-->
+
+    <!--Featured post section starts here-->
+    <article class="mt-10 p-10 flex flex-col">
+      <h1
+        class="font-extrabold text-center md:text-4xl text-red-900 italic text-2xl"
+      >
+        WHY NOT ORDER A MEAL DOWN TO YOUR DOOR POST?.
+      </h1>
+      <div class="flex md:flex-row items-center justify-around flex-col">
+        <div class="my-20 flex flex-col shadow-xl shadow-green-900">
+          <img
+            class="max-w-96 rounded-[20%] shadow-xl shadow-green-900"
+            src="food 4.webp"
+            alt="food"
+          />
+          <h2 class="text-[4rem] text-center">food</h2>
+          <p class="text-sm font-bold md:max-w-[35rem] text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. dolores!
+          </p>
+        </div>
+        <div class="my-20 flex flex-col shadow-xl shadow-green-900">
+          <img
+            class="max-w-96 rounded-[20%] shadow-xl shadow-green-900"
+            src="food 1.jpg"
+            alt="food"
+          />
+          <h2 class="text-[4rem] text-center">food</h2>
+          <p class="text-sm font-bold md:max-w-[35rem] text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. dolores!
+          </p>
+        </div>
+        <div class="my-20 flex flex-col shadow-xl shadow-green-900">
+          <img
+            class="max-w-96 rounded-[20%] shadow-xl shadow-green-900"
+            src="food 4.webp"
+            alt="food"
+          />
+          <h2 class="text-[4rem] text-center">food</h2>
+          <p class="text-sm font-bold md:max-w-[35rem] text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. dolores!
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!--End OF Featured post section-->
+
+    <!--form-->
+    <section class="flex flex-col justify-center items-center py-20 mx-10">
+      <form action="submit" class="flex flex-col gap-10">
+        <div class="relative flex flex-col gap-7">
+          <input
+            class="p-8 bg-black md:text-6xl w-screen pl-28 text-[1rem] text-white"
+            type="text"
+            placeholder="Enter delivery address : "
+          /><i
+            class="fa-solid fa-location-dot text-white absolute sm:left-6 sm:bottom-36 md:bottom-[171px] bottom-[122px] left-14 text-[1.2rem] sm:text-5xl px-5"
+          ></i>
+          <select
+            class="px-28 p-5 md:text-5xl bg-neutral-200 text-[1rem]"
+            name=""
+            id="location"
+          >
+            <i class="fa-solid fa-timeline"></i
+            ><i class="fa-solid fa-timeline"></i>
+            <option class="" value="">Click to select delivery time :</option>
+            <option class="" value="">Deliver now:</option>
+            <option value="">Deliver tomorrow</option>
+            <option value="">Deliver someother time</option>
+          </select>
+        </div>
+
+        <div class="px-10">
+          <button
+            class="bg-red-600 text-white p-3 md:p-5 rounded-2xl text-[0.8rem] md:text-lg hover:bg-black"
+          >
+            Click to submit
+          </button>
+          <button
+            class="bg-slate-900 text-white p-3 md:p-5 rounded-2xl text-[0.8rem] hover:bg-red-600 md:text-lg"
+          >
+            Find Food:
+          </button>
+        </div>
+      </form>
+    </section>
+    <!--End of form-->
+
+    <!--Category section starts here-->
+    <section class="bg-white pb-20 mx-8">
+      <div class="flex flex-col items-center gap-2 py-10">
+        <p class="text-2xl text-green-800">Menu list</p>
+        <h2 class="text-4xl text-red">TODAYS's SPECIALTY</h2>
+      </div>
+      <div
+        class="md:grid md:grid-rows-2 md:grid-flow-col md:gap-5 flex flex-col gap-5"
+      >
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg" src="food 3.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$89.04</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 2.jpg" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$24.24</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 4.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$28.00</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 101.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$77.34</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg" src="food 3.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$43.11</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 102.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$19.00</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 103.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$56.51</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 max-w-sm border border-red-600 p-5 mx-8 rounded-lg bg-yellow-500 shadow-2xl shadow-violet-800"
+        >
+          <img class="rounded-lg max-h-44" src="food 105.webp" alt="" />
+          <div>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          </div>
+          <h3 class="text-2xl text-white font-bold font-sans">
+            Mouthwatering meal
+          </h3>
+          <p class="text-gray-500 font-sans">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+            ipsum!consectetur adipisicing elit. Amet, ipsum
+          </p>
+          <div class="flex gap-3 items-center">
+            <button
+              class="font-sans text-lg bg-white rounded-lg p-3 hover:bg-red-700 hover:text-white"
+            >
+              Add To Cart
+            </button>
+            <p class="font-sans text-lg cursor-pointer font-bold">$45.34</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Category section ends here-->
+
+    <!--recent post section starts here-->
+    <section class="bg-white flex flex-col mt-10 mx-8">
+      <p class="text-black font-mono text-center mt-10 font-medium mb-2">
+        Our Customers Review
+      </p>
+      <h2 class="text-red-700 font-extrabold text-3xl font-mono text-center">
+        FEED BACK FROM THEM
+      </h2>
+      <div class="py-20 md:flex justify-center gap-3 grid grid-cols-2">
+        <div class="max-w-96 p-5 shadow-inner shadow-black">
+          <div class="flex gap-5 items-center">
+            <img class="w-24 rounded-bl-full" src="ceo.jpeg" alt="" />
+
+            <div>
+              <p>John Doe</p>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <p class="text-black">12-09-2024</p>
+            </div>
+          </div>
+
+          <p class="max-w-96 text-gray-500 mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            obcaecati excepturi similique laudantium saepe dignissimos natus,
+            explicabo porro est placeat doloremque eaque aliquam ad dicta
+            officiis
+          </p>
+        </div>
+        <div class="max-w-96 p-5">
+          <div class="flex gap-5 items-center">
+            <img class="w-24 rounded-bl-full" src="ceo.jpeg" alt="" />
+
+            <div>
+              <p>David Stone</p>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <p class="text-black">12-08-2024</p>
+            </div>
+          </div>
+
+          <p class="max-w-96 text-gray-500 mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            obcaecati excepturi similique laudantium saepe dignissimos natus,
+            explicabo porro est placeat doloremque eaque aliquam ad dicta
+            officiis
+          </p>
+        </div>
+        <div class="max-w-96 p-5 shadow-inner shadow-black">
+          <div class="flex gap-5 items-center">
+            <img class="w-24 rounded-bl-full" src="ceo.jpeg" alt="" />
+
+            <div>
+              <p>Mary Jane</p>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <p class="text-black">2-09-2024</p>
+            </div>
+          </div>
+
+          <p class="max-w-96 text-gray-500 mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            obcaecati excepturi similique laudantium saepe dignissimos natus,
+            explicabo porro est placeat doloremque eaque aliquam ad dicta
+            officiis
+          </p>
+        </div>
+        <div class="max-w-96 p-5">
+          <div class="flex gap-5 items-center">
+            <img class="w-24 rounded-bl-full" src="ceo.jpeg" alt="" />
+
+            <div>
+              <p>Walter Steve</p>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span class="text-yellow-600"
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <p class="text-black">10-09-2024</p>
+            </div>
+          </div>
+
+          <p class="max-w-96 text-gray-500 mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            obcaecati excepturi similique laudantium saepe dignissimos natus,
+            explicabo porro est placeat doloremque eaque aliquam ad dicta
+            officiis
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--recent post section ends here-->
+
+    <!--Footer section starts here-->
+    <section class="py-10 flex flex-col items-center">
+      <div class="flex gap-10 items-center mb-5">
+        <div class="flex gap-10 items-center">
+          <p class="text-black font-semibold text-[0.8rem] md:text-2xl">
+            Contact Us
+          </p>
+          <div class="flex gap-5">
+            <span
+              ><i class="fa-brands fa-facebook text-blue-900 text-5xl"></i
+            ></span>
+            <span
+              ><i class="fa-brands fa-square-twitter text-black text-5xl"></i
+            ></span>
+            <span
+              ><i
+                class="fa-brands fa-square-instagram text-red-500 text-5xl"
+              ></i
+            ></span>
+          </div>
+        </div>
+        <p
+          class="text-black font-semibold text-[0.8rem] md:text-2xl border-l-4 pl-10"
+        >
+          Privacy Policy
+        </p>
+      </div>
+      <span>4101 George Road, Suite 200, Florida 3364.</span>
+      <div class="flex gap-20">
+        <span>c 2024 Uber Eats Industry.</span>
+        <span>All Rights Reserved.</span>
+      </div>
+
+      <div class="flex gap-20 border-t-4 mt-5 pt-5">
+        <span>Customer Service.</span>
+        <span>Privacy Policy.</span>
+      </div>
+    </section>
+    <!--Footer section ends here-->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/288912a1bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
